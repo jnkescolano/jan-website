@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwindcss": "npx tailwindcss -i ./src/input.css -o ./src/style.css --minify --watch"
+    "tailwindcss": "npx tailwindcss -i ./src/input.css -o ./src/style.css --minify --watch",
+    "prettier": "npx prettier ./src/index.html ./src/input.css --write"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "3.2.5",
     "tailwindcss": "^3.4.3"
   }
 }
