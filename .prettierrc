@@ -1,13 +1,1 @@
-{
-  "tabWidth": 4,
-  "bracketSpacing": false,
-  "singleAttributePerLine": true,
-  "overrides": [
-    {
-      "files": "*html",
-      "options": {
-        "tabWidth": 2
-      }
-    }
-  ]
-}}
+{}
